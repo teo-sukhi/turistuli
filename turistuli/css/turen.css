@@ -1,0 +1,19 @@
+﻿body {background-color: hsl(120, 10%, 75%);}
+
+
+.cover {text-align: center;
+position: relative;
+}
+
+.geoflag {
+width: 16px;
+height: 16px;
+}
+#flag {text-align: right;
+position: relative;
+bottom: 100px;}
+
+h3 {text-align: right;
+position: relative;
+right: 100px;
+bottom: 60px;}
