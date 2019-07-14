@@ -1,0 +1,39 @@
+﻿<!doctype html>
+<html>
+<head>
+<title>tursituli</title>
+<link href = "./css/turen.css" rel = "stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#open").click(function(){
+     $(".menu").css("width", "250px");
+  })
+
+  $(".close").click(function(){
+     $(".menu").css("width", "0px");
+  })
+
+});
+</script>
+
+</head>
+
+<body>
+  <header>
+ <span style="font-size: 30px; color: white;" onclick="openMenu()" id = "open">&#9776;</span> </header>
+
+<nav class = "menu">  
+   <span style = "color:  white;" class = "close">&#10005;</span>
+   <a href="">Home</a>
+   <a href="">Regions</a>
+   <a href="">Tours</a></li>
+   <a href="">Contact</a>
+   <a href="">Map</a>
+   <a href="">About Us</a>
+</nav>
+
+
+
+</body>
+</html>
